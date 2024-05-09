@@ -18,7 +18,7 @@ public class Automotor {
 
     public Automotor(int c, String m, int b, double x) {
         cedula = c;
-        String marca = m;
+         marca = m;
         año = b;
         valorVehiculo = x;
 
@@ -26,7 +26,7 @@ public class Automotor {
 
     public Automotor(String m, int b, double x) {
         cedula = 1105197030;
-        String marca = m;
+         marca = m;
         año = b;
         valorVehiculo = x;
 
@@ -82,7 +82,7 @@ public class Automotor {
                 + "dueño es: %d \n La marca del vehiculo es :%s \n El año de "
                 + "fabricacion es : %.d\n El valor del vehiculo es %.2f\n El valor"
                 + "de la matricula es %.2f\n", cedula, marca, año,
-                 valorVehiculo);
+                 valorVehiculo,valorMatricula);
         return cadena;
     }
 }

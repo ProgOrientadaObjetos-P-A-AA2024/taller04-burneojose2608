@@ -16,15 +16,15 @@ public class Cheques {
     private double comision;
 
     public Cheques(String x, String c, double b) {
-        String nombre = x;
-        String nombreBanco = c;
+        nombre = x;
+         nombreBanco = c;
         valor = b;
 
     }
 
     public Cheques(String m, String c) {
-        String nombre = m;
-        String nombreBanco = c;
+         nombre = m;
+         nombreBanco = c;
         valor = 150;
 
     }
